@@ -1,6 +1,7 @@
-# WSO2_MI_Connect_TO_ActiveMQ
+# WSO2 MI Connect To ActiveMQ Topic
 
 This for the necessary configurations for connect WSO2MI with the ActiveMQ.
+![diagram.png](diagram.png)
 
 ## Connecting to Active MQ
  - Copy the following client libraries from the `ACTIVEMQ_HOME/lib` directory to the `MI_HOME/lib` directory
@@ -42,3 +43,4 @@ parameter.provider_url = "failover:tcp://localhost:61616"
 <parameter name="transport.jms.SessionTransacted">true</parameter>
 <parameter name="transport.jms.CacheLevel">consumer</parameter>
 ```
+
